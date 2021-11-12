@@ -5,9 +5,9 @@ const getInfo = async function(raceSeason, raceRound){
 }
 
 
-const raceForm = document.getElementById('archiveForm');
+const archiveForm = document.getElementById('archiveForm');
 
-raceForm.addEventListener('submit', async (e) =>{
+archiveForm.addEventListener('submit', async (e) =>{
     e.preventDefault();
    
     let raceSeason = e.target.raceSeason.value;
