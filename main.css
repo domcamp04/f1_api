@@ -1,0 +1,18 @@
+body{
+    font-family: 'montserrat', sans-serif;
+    background-size: cover;
+    background-position: top center;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
